@@ -1,0 +1,78 @@
+body {
+    width: 90%;
+    margin-left: 5%;
+    font-family: "Edu TAS Beginner", cursive;
+    background-color: #cdebfe;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .second {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  main {
+    float: left;
+  }
+  
+  aside {
+    float: right;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  .content {
+    text-align: center;
+    max-width: 1000px;
+  }
+  
+  #about {
+    margin-top: 70px;
+  }
+  
+  #pendidikan {
+    margin-top: 70px;
+  }
+  
+  #kerja {
+    margin-top: 70px;
+  }
+  
+  aside {
+    margin-top: 50px;
+  }
+  
+  footer {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+  }
+  
+  .kontak {
+    display: flex;
+    list-style: none;
+  }
+  
+  img {
+    width: 150px;
+    border-radius: 30%;
+  }
+  
+  @media screen and (max-width: 1278px) {
+    aside {
+      width: 100%;
+      text-align: center;
+    }
+  }
